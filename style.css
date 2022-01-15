@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9d29d;
+    background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+
+}
+
+.container {
+    max-width: 400px;
+    min-height: 90vh;
+    border-radius: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(46, 46, 46);
+    background-color: white;
+    margin: 20px auto;
+}
+
+.main {
+    margin: 20px auto;
+    display: flex;
+    padding: 40px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.logo {
+    width: 100px;
+    border: 12px solid rgba(233, 232, 232, .6);
+    border-radius: 50%;
+}
+
+.user-name {
+    margin: 15px;
+    font-size: 1rem;
+}
+
+.channel-name {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.subscribers {
+    padding: 12px 0px;
+    background-color: rgb(236 236 236 / 46%);
+    font-size: .75rem;
+    text-align: center;
+    border-radius: 4px;
+    width: 70%;
+}
+
+form {
+    margin: 15px auto;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+input[type="text"] {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 4px 0;
+    /* font-size: 1rem; */
+    margin-bottom: 15px;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: #A20061;
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #A20061;
+    color: white;
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
